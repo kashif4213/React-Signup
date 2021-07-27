@@ -1,0 +1,17 @@
+.PageButton
+{
+    border: 1px solid gray;
+    box-shadow: 8px 10px 20px 0 rgb(46 61 73 / 15%);
+   
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    width:50px;
+    text-align: center;
+    color: #017a9b;
+}
+.PageButton:hover
+{
+    box-shadow: 8px 20px 20px 0 rgb(46 61 73 / 15%);
+    }

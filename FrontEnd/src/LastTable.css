@@ -1,0 +1,72 @@
+.LastTable
+{
+    margin-bottom: 10px;
+    color: #525c65;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    min-height: 24rem;
+}
+.part1
+{
+ width :100%;
+
+}
+.part2
+{
+
+}
+.main
+{
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: .8125rem;
+    line-height: 1.5rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #7d97ad;
+    position: relative;
+    font-family: Open Sans,sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+main::after{
+    content: "+";
+    opacity: .3;
+    color: #2e3d49;
+    display: block;
+    position: absolute;
+    font-size: 1.25rem;
+    top: .75rem;
+    right: 1.5rem;
+    font-weight: 400;
+}
+.sub
+{
+    padding: 0;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 4px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: .8125rem;
+    font-family: Open Sans,sans-serif;
+    text-align: left;
+    margin-left: -10px;
+}
+.sub1
+{
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color .3s ease;
+    cursor: pointer;
+    line-height: 1.5rem;
+    font-size: .8125rem;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    text-align: left;
+}

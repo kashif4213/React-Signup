@@ -1,0 +1,135 @@
+.Colab
+{
+    font-size: .5625rem;
+    line-height: 12px;
+    font-weight: 600;
+    color: #758a9f;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.colabName{
+    overflow: hidden;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e3d49;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.level
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.reviews
+{
+    margin-right: 10px;
+}
+.school
+{
+    font-size: .5625rem;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #758a9f;
+    margin-left: 30px;
+    order: -1;
+    margin-bottom: .5rem;
+}
+.courseName
+{
+    font-size: 1.125rem;
+   
+    font-weight: 700;
+    color: #000;
+    
+    margin-bottom: 1rem;
+}
+.middle
+{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 10px;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   height: 40px;
+    background-color: rgba(246,251,253,.9);
+    border-top: 1px solid #dfecf1;
+    border-bottom: 1px solid #dfecf1;
+
+}
+.clock
+{
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+.bio
+{
+    font-size: .75rem;
+    line-height: 24px;
+    display: -webkit-box;
+    margin-left: 30px;
+    overflow: hidden;
+    line-height: 20px;
+    color: #2e3d49;
+    margin-bottom: 0;
+}
+
+.skillCovered
+{
+    font-size: .75rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #017a9b;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    margin-left: 30px;
+}
+.skills
+{
+    margin-left: 30px;
+    overflow: hidden;
+    margin-bottom: .5rem;
+    font-size: .75rem;
+    line-height: 24px;
+    color: #2e3d49;
+    font-weight: 400;
+    cursor: pointer;
+}
+.Items
+{
+  margin-bottom: 30px;
+   
+}
+.Item{
+display: flex;
+
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+.leftside
+{
+    border: 1px solid #dbe2e7;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(46 61 73 / 13%);
+    overflow: hidden;
+    width: 200px;
+   
+    height: 450px;
+}
+.rightSide
+{
+    border: 1px solid #dbe2e7;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(46 61 73 / 13%);
+    overflow: hidden;
+    width: 600px;
+    height: 450px;
+    text-align: left;
+}

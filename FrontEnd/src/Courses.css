@@ -1,0 +1,71 @@
+.Courses{
+    display: list-item;
+    width: 35%;
+}
+.courseName
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    letter-spacing: .1rem;
+    font-size: .875rem;
+    line-height: 24px;
+    border-left: 3px solid transparent;
+    display: block;
+    padding: .25rem .25rem .25rem 1.5rem;
+    cursor: pointer;
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    -moz-transition: color .3s ease;
+    transition: color .3s ease;
+    list-style-type: none;
+    text-align: left;
+}
+.courseName:active
+{
+    color: #24292d;
+   
+}
+.courseName:hover
+{
+    border-left: 3px solid #017a9b;
+    color: #017a9b;
+}
+.courseName:focus
+{
+    color: #24292d
+}
+.courseName:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.courseName:root
+{
+    --reach-tabs: 1
+}
+.courseName:target:before {
+    content: ""; 
+    display: inline-block;
+    height: 130px;
+    margin: -130px 0 0;
+}
+.subCourse
+{
+    margin: 0;
+    font-size: .875rem;
+    line-height: 24px;
+    border-left: 3px solid transparent;
+    display: block;
+    padding: .25rem .25rem .25rem 1.5rem;
+    cursor: pointer;
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+margin-left: -35px;
+    transition: color .3s ease;
+    list-style-type: none;
+    font-family: Open Sans,sans-serif;
+  
+    text-align: left;
+    
+}

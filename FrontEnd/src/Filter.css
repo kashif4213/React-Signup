@@ -1,0 +1,102 @@
+.filterby{
+    font-size: .875rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    color: #6d7780;
+    letter-spacing: .05rem;
+    margin-right: 200px;
+}
+.filter{
+
+
+    
+ 
+
+
+}
+.outerFilter
+{
+    border: 1px solid #dbe2e8;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 5px 5px 10px 0 rgb(46 61 73 / 5%);
+    min-height: 20px;
+    color: #525c65;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+    margin-left: 5px;
+}
+.filter1
+{
+
+    margin: 0;
+    padding: .6875rem 2.5rem .6875rem 1.25rem;
+    color: #6d7780;
+    cursor: pointer;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: inherit;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: middle;
+    height: 3rem;
+    font-size: .813rem;
+    line-height: 2.625rem;
+    border-radius: .25rem;
+    font-family: Open Sans,sans-serif;
+    
+    
+}
+.filter1::after{
+    content: "";
+    position: absolute;
+    background-image: url(https://www.udacity.com/images/core/footer/countries-nav/icon_drop_arrow.svg);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 7px;
+    right: 1rem;
+    bottom: 50%;
+    transform: translateY(50%) scale(1);
+    opacity: .6;
+    transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out,-moz-transform .3s ease-in-out;
+    transform-origin: center;
+}
+
+.filter2
+{
+    font-size: .875rem;
+    line-height: 24px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    padding: .6875rem 2.5rem .6875rem 1.25rem;
+    color: #6d7780;
+    cursor: pointer;
+    text-align: left;
+  
+   
+    outline: inherit;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+    background-color: #fff;
+    display: block;
+   
+    font-family: Open Sans,sans-serif;
+    font: 400 13.3333px Arial;
+}
